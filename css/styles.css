@@ -176,7 +176,7 @@ body {
 	border-radius: 2px;
 	position: absolute;
 	left: 0;
-	top: 45px;
+	bottom: -32px;
 }
 
 .icon-mail-one {
