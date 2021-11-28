@@ -102,6 +102,10 @@ body {
 .logo-accent {
 	color: var(--text-color-main);
 	padding: 24px 0;
+
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-accent:hover,
@@ -117,6 +121,10 @@ body {
 	color: var(--text-color-main);
 
 	padding: 32px 0;
+
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-nav-one:hover,
@@ -148,9 +156,16 @@ body {
 
 	display: flex;
 	align-items: center;
+
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-tel-one {
 	margin-right: 10px;
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-mail:hover,
@@ -193,6 +208,9 @@ body {
 
 	display: flex;
 	align-items: center;
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-tel:hover,
@@ -266,6 +284,9 @@ body {
 
 	border: none;
 	border-radius: 4px;
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 	width: 200px;
 	height: 50px;
@@ -447,6 +468,10 @@ body {
 	justify-content: center;
 	background-color: var(--background-color);
 	color: var(--svg-color);
+
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-list:hover,
@@ -533,6 +558,9 @@ body {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	color: var(--svg-color);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon:hover,
 .clients-icon:focus {
@@ -569,6 +597,9 @@ body {
 
 .logo-accent {
 	color: var(--text-color-main);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-info {
@@ -595,6 +626,9 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--background-color);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-footer {
@@ -611,6 +645,9 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-footer:hover,
@@ -627,6 +664,9 @@ body {
 
 .tel-footer {
 	color: rgba(255, 255, 255, 0.6);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-footer:hover,
@@ -663,6 +703,9 @@ body {
 	justify-content: center;
 
 	background: rgba(255, 255, 255, 0.1);
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-bg:hover,
@@ -731,6 +774,10 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-color-main);
 
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 	border: none;
 	border-radius: 4px;
 }
@@ -766,6 +813,10 @@ body {
 	height: 100%;
 	transform: translateY(100%);
 	transition: transform 250ms;
+
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list:hover .work-text {
 	transform: translateY(0);
@@ -804,6 +855,9 @@ body {
 
 .portfolio-list-link {
 	display: block;
+	transition-property: var(--background-color);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-link:hover,
