@@ -883,3 +883,43 @@ body {
 .tel-footer:focus {
 	color: var(--accent-color);
 }
+
+.backdrop {
+	width: 1600px;
+	height: 1024px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	/* position: fixed; */
+	top: 0;
+	left: 0;
+}
+.modal {
+	width: 528px;
+	height: 581px;
+	background-color: var(--background-color);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.icon-closeblack {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.backdrop .is-hidden {
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
