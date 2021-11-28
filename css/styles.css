@@ -889,9 +889,10 @@ body {
 	height: 1024px;
 	background: rgba(0, 0, 0, 0.2);
 	position: absolute;
-	/* position: fixed; */
+	position: fixed;
 	top: 0;
 	left: 0;
+	transition: opacity 250ms; visibility 250ms;
 }
 .modal {
 	width: 528px;
