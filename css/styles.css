@@ -918,7 +918,8 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-.backdrop .is-hidden {
+
+.is-hidden {
 	visibility: hidden;
 	opacity: 0;
 	pointer-events: none;
