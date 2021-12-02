@@ -6,6 +6,9 @@
 	--text-color-secondary: #757575;
 	--footer-text-color: #2f303a;
 	--svg-color: #afb1b8;
+
+	--animation-duration: 250ms;
+	--timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *,
@@ -103,9 +106,7 @@ body {
 	color: var(--text-color-main);
 	padding: 24px 0;
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .logo-accent:hover,
@@ -122,9 +123,7 @@ body {
 
 	padding: 32px 0;
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .text-nav-one:hover,
@@ -157,15 +156,12 @@ body {
 	display: flex;
 	align-items: center;
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 .icon-tel-one {
 	margin-right: 10px;
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .text-mail:hover,
@@ -208,9 +204,8 @@ body {
 
 	display: flex;
 	align-items: center;
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .text-tel:hover,
@@ -284,9 +279,8 @@ body {
 
 	border: none;
 	border-radius: 4px;
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	transition: background-color var(--animation-duration) var(--timing-function);
 
 	width: 200px;
 	height: 50px;
@@ -454,9 +448,8 @@ body {
 	background-color: var(--background-color);
 	color: var(--svg-color);
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color var(--animation-duration) var(--timing-function),
+		color var(--animation-duration) var(--timing-function);
 }
 
 .icon-list:hover,
@@ -543,9 +536,9 @@ body {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	color: var(--svg-color);
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	transition: color var(--animation-duration) var(--timing-function);
+	border-color: var(--animation-duration) var(--timing-function);
 }
 .clients-icon:hover,
 .clients-icon:focus {
@@ -582,9 +575,7 @@ body {
 
 .logo-accent {
 	color: var(--text-color-main);
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .footer-info {
@@ -611,9 +602,7 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--background-color);
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .address-footer {
@@ -630,9 +619,7 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .mail-footer:hover,
@@ -649,9 +636,7 @@ body {
 
 .tel-footer {
 	color: rgba(255, 255, 255, 0.6);
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--animation-duration) var(--timing-function);
 }
 
 .tel-footer:hover,
@@ -689,7 +674,7 @@ body {
 
 	background: rgba(255, 255, 255, 0.1);
 
-	transition: var(--background-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color var(--animation-duration) var(--timing-function);
 }
 
 .footer-icon-bg:hover,
@@ -758,9 +743,8 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-color-main);
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color var(--animation-duration) var(--timing-function),
+		color var(--animation-duration) var(--timing-function), box-shadow var(--animation-duration) var(--timing-function);
 
 	border: none;
 	border-radius: 4px;
@@ -801,11 +785,8 @@ body {
 	padding: 63px 24px;
 	height: 100%;
 	transform: translateY(100%);
-	transition: transform 250ms;
 
-	transition-property: var(--background-color);
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: transform var(--animation-duration) var(--timing-function);
 }
 
 .portfolio-work:hover .work-text,
@@ -819,6 +800,7 @@ body {
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	transition: box-shadow var(--animation-duration) var(--timing-function);
 }
 
 .container-item-title {
