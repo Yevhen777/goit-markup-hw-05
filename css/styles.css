@@ -6,6 +6,7 @@
 	--text-color-secondary: #757575;
 	--footer-text-color: #2f303a;
 	--svg-color: #afb1b8;
+	--box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 	--animation-duration: 250ms;
 	--timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -538,8 +539,7 @@ body {
 	border-radius: 4px;
 	color: var(--svg-color);
 
-	transition: color var(--animation-duration) var(--timing-function);
-	border-color: var(--animation-duration) var(--timing-function);
+	transition: border-color, color var(--animation-duration) var(--timing-function);
 }
 .clients-icon:hover,
 .clients-icon:focus {
@@ -685,9 +685,10 @@ body {
 
 .footer-icon-item {
 	display: flex;
+}
+.footer-icon-item:not(:last-child) {
 	margin-right: 10px;
 }
-
 .footer-svg {
 	fill: var(--background-color);
 }
@@ -801,7 +802,10 @@ body {
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.portfolio-work {
 	transition: box-shadow var(--animation-duration) var(--timing-function);
+}
 }
 
 .container-item-title {
